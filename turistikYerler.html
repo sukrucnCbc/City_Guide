@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amasya Şehir Rehberi</title>
+    
+    <link rel="shortcut icon" href="elma.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/elma.ico" type="image/x-icon">
+
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-color:#d4f058bb;
+        }
+        header{
+            
+            width: 100%;
+            height: 810px;
+        
+        }
+
+        #banner{
+            border: 1px solid black;
+            width: 100%;
+            height:700px;
+            background-image: url("images/rengarenk-isiklariyla-muhtesem-amasya.jpg");
+            background-size: cover;
+            background-position: center;
+          
+            z-index: 1;
+            
+            
+        }
+        #bannerInfo{
+            color: lavender;
+            text-align:center;
+            font-size: 38px;
+            background-color: black;
+            margin-top: 511px;
+            clear: both;
+            z-index: 2;
+           
+            
+        }
+
+        nav{
+            overflow:hidden;
+            background-color: gray;
+            width: 100%;
+            padding: 20px;
+            clear: both;
+            margin-top: 15px;
+            text-align: center;
+            border: 1px gray solid;
+            border-radius: 30px 30px 30px 30px; 
+            box-shadow:20px 10px 10px rgb(133, 126, 126) ;
+
+        }
+        nav a{
+        padding: 50px 50px;
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+        }
+        
+        nav a:hover{
+            background-color: teal;
+          
+         }
+        
+        button{
+            border:none; 
+            color: #FFF; 
+            padding: 14px 28px; 
+            cursor: pointer;
+            font-size: 16px;
+            background-color: teal;
+            border-radius: 3px;
+            float: left;
+            margin-left: 15px;
+        }
+        button:hover{
+            background-color:teal;
+
+        }
+        .main{
+            float: left;
+            margin-left:10px;
+            margin-top: 10px;
+            width: 75%;
+            padding-left: 50px;
+            text-align:left;
+            font-size:15px;
+            text-align: center;
+            word-spacing: 2px;
+            
+        }
+        
+        .main .card .img{
+            text-align: center;
+            }
+
+        .card{
+            padding:10px;
+            
+            margin-right: 10px;
+            height: 500px;
+            background-color: rgb(221, 230, 233);
+            border:5px teal double; 
+            height: 780px;
+            box-shadow: 10px 10px teal  ;
+            margin-top: 15px;
+            
+            
+        }
+        .img{
+            margin-right: 10px;
+                        
+        }
+
+        .yan{
+            float: right;
+            width: 22%;
+            padding-left: 5px;
+            height: 400px;
+            margin-top: 10px;
+        }
+            
+        .yan .card{
+            height: 1050px;
+           
+        }
+
+        footer{
+            background-color: gray;
+            padding: 15px 12px;
+            text-align: center;
+            float: left;
+            width: 100%;
+            margin-top: 650px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="banner">
+            <div id="bannerInfo">
+                <h1>AMASYA
+                </h1>
+            </div>
+        </div>    
+        <nav>
+            <a href="fotoGaleri.html">Foto Galeri</a>
+            <a href="anasayfa.html" >Anasayfa</a>
+            <a href="turistikYerler.html" >Turistik Mekanlar</a>
+           
+        </nav>
+    </header>
+    
+    
+
+    <section class="yan">
+        <div class="card" style="border:3px teal ridge ">
+            <h2>Genel Bilgiler</h2>
+            <div class="img">
+            <img src="images/amasya1.jpg" alt="Amasya" height="166px" width="230px">
+            </div>
+            <pre>Ülke                           Türkiye</pre>
+            <pre>İl                                  Amasya</pre>
+            <pre>Bölge                         Karadeniz</pre>
+            <p>_____________________________</p>
+            <pre>Yüzölçümü               1.729 km²</pre>
+            <pre>Rakım                        411m</pre>
+            <pre>Nüfus(2018)              149.358 </pre>
+            <p>____________________________</p>
+            <pre>Posta Kodu                   05100</pre>
+            <pre>Telefon Kodu                358</pre>
+            <pre>İl Plaka Kodu                 05 </pre>
+            <p>____________________________</p>
+            <p style="text-align: center;">Harita</p>
+            <img src="images/harita2.png" alt="Amasya" height="px" width="230px">
+            <pre style="text-align: center;">Resmi Site</pre>
+            <pre>       <button><a href="http://www.amasya.gov.tr" style="text-align: center; text-decoration: none; color: ivory; font-size: 21px;">amasya.gov.tr </a></button></pre>
+       </div>
+    </section>   
+    
+   
+
+   
+   
+    
+    <section class="main">
+        <div class="card" id="turistik" style="height: 800px;" >
+            <h1>AMASYA'DA GEZİLECEK TURİSTİK MEKANLAR</h1>
+            <h2>Kral Kaya Mezarları</h2>
+            
+            <h5>June7,2020</h5>
+                <div class="img" >
+                <img src="images/kralkaya.jpg" style="width: 700px; height: 380px;">
+                </div>
+            
+            <p style="font-size: 19px;">Helenistik dönemde, Amasya’yı İÖ.333’den İÖ.26’ya kadar başkent olarak kullanan Pontus Krallarına ait olan Kral kaya Mezarları, Harşena Dağı’nın güney eteklerine, kalker kayalara oyularak yapılmıştır. 
+
+                Hatuniye Mahallesi’nin dar sokaklarından ve tren yolunu geçerek çıkılan mezarların arasında, kayaya oyulmuş yollar ve merdivenler bulunmaktadır. Yeşilırmak Vadisi boyunca, irili ufaklı 21 mezar olduğu bilinmekle birlikte bunlardan sadece birkaç tanesi günümüze gelebilmiştir. Kaya Mezarlarının içlerinden çok, arkalarına oyulmuş geçitler dikkat çekicidir. Bu bölgedeki büyük mezarlardan birinin yanında, nehre kadar uzandığına inanılan bir tünelin başlangıcı bulunmaktadır. Kalker kayalara oyularak yapılan bu mezarlar yapı ve büyüklükleri itibarıyla kente hakim bir noktadadırlar.</p>
+                
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="card" style=" height: 700px;">
+            
+            <h2>Borabay Gölü</h2>
+            
+            <h5>June7,2020</h5>
+                <div class="img" >
+                <img src="images/borabay,.jpg" style="width: 700px; height: 380px;">
+                </div>
+            
+            <p style="font-size: 19px;">Olağanüstü bir doğa harikasıdır. Amasya ziyaretinizde, bir cennet köşesinde oturup dinlenme imkanını sizlere sunan muazzam bir alan.Amasya'nın doğal güzelliklerinin muhteşem bir örneği olan Borabay Gölü; Yeşilin her tonuna sahip, içaçıcı havasıyla huzur soluyacağınız ve manzarasıyla gözlerinizi okşayacak muhteşem bir gezi durağı.Amasya'nın tabiat güzelliklerinin güzel bir örneği olan Borabay Gölü, Amasya gezilecek yerler listenizde bulunmalıdır.</p>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="card" style=" height: 800px;">
+            
+            <h2>Amasya Kalesi</h2>
+            
+            <h5>June7,2020</h5>
+                <div class="img" >
+                <img src="images/kale.jpg" style="width: 700px; height: 380px;">
+                </div>
+            
+            <p style="font-size: 19px;">Şehir için stratejik bir nokta olan Harşena dağı üzerine kurulmuş olan kale, yaklaşık 3.200 yıllık bir geçmişe sahiptir.Amasya tarihine ışık tutmuş olan Amasya Kalesi; 41 adet kulesi bulunan kale, bölgede yaşayan bütün uygarlıklar için asırlardır önemini korumuştur.Günümüzde en çok ziyaret edilen Amasya'nın tarihi mekanlarından bir tanesidir.Amasya Kalesinin arka planda ki şehirle oluşturduğu harikulade manzara görülmeye değer. KRAL KAYA MEZARLIĞI Kalker kayaların oyulmasıyla yapılan mezarlar, Harşena dağının güney eteklerinde bulunmaktadır. Bu tarihi mekana, galeri ve merdivenler sayesinde çıkılmaktadır. Bazı dönemlerde hristiyan keşişlerin buranın uhlevi havası içinde inzivaya çekildiği söylenmektedir. Büyük bir öneme sahip alan, yerli ve yabancı turistlerce yoğun ilgi görmektedir.Amasya'da gezilecek yerler listenizde kesinlikle bulunması gereken bir tarihi eserdir Amasya Kalesi.</p>
+        </div>
+    </section>
+
+    <footer>Copyrights © 2020 Creasoft All Right Reserved
+        <p style="text-align: center;">Şükrücan Cebeci 385221</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amasya Şehir Rehberi</title>
+    
+    <link rel="shortcut icon" href="elma.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/elma.ico" type="image/x-icon">
+    <script>
+
+        alert("Bu şehri görmediyseniz, henüz en güzelini görmediniz!")
+        
+    </script>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-color:#d1e770bb;
+        }
+        header{
+            
+            width: 100%;
+            height: 810px;
+        
+        }
+
+        #banner{
+            border: 1px solid black;
+            width: 100%;
+            height:700px;
+            background-image: url("images/rengarenk-isiklariyla-muhtesem-amasya.jpg");
+            background-size: cover;
+            background-position: center;
+          
+            z-index: 1;
+            
+            
+        }
+        #bannerInfo{
+            color: lavender;
+            text-align:center;
+            font-size: 38px;
+            background-color: black;
+            margin-top: 511px;
+            clear: both;
+            z-index: 2;
+           
+            
+        }
+        
+
+        
+        
+        nav{
+            overflow:hidden;
+            background-color: gray;
+            width: 100%;
+            padding: 20px;
+            clear: both;
+            margin-top: 15px;
+            text-align: center;
+            border: 1px gray solid;
+            border-radius: 30px 30px 30px 30px; 
+            box-shadow:20px 10px 10px rgb(133, 126, 126) ;
+
+        }
+        nav a{
+        padding: 50px 50px;
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+        }
+        
+        nav a:hover{
+            background-color: teal;
+          
+         }
+        
+        button{
+            border:none; 
+            color: #FFF; 
+            padding: 14px 28px; 
+            cursor: pointer;
+            font-size: 16px;
+            background-color: teal;
+            border-radius: 3px;
+            margin-left: 15px;
+            float: left;
+        }
+        button:hover{
+            background-color:teal;
+
+        }
+        .main{
+            float: left;
+            margin-left:10px;
+            margin-top: 10px;
+            width: 75%;
+            padding-left: 50px;
+            text-align:left;
+            font-size:15px;
+            text-align: center;
+            word-spacing: 2px;
+            
+        }
+        
+        .main .card .img{
+            text-align: center;
+            }
+
+        .card{
+            padding:10px;
+            margin-right: 10px;
+            height: 500px;
+            background-color: rgb(221, 230, 233);
+            border:5px teal double; 
+            height: 780px;
+            box-shadow: 10px 10px teal  ;
+            margin-top: 15px;
+            
+        }
+        .img{
+            margin-right: 10px;
+                        
+        }
+
+        .yan{
+            float: right;
+            width: 22%;
+            padding-left: 5px;
+            height: 400px;}
+        .yan .card{
+            height: 1050px;
+           
+        }
+
+        footer{
+            background-color: gray;
+            padding: 15px 12px;
+            text-align: center;
+            float: left;
+            width: 100%;
+            margin-top: 650px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="banner">
+            <div id="bannerInfo">
+                <h1>AMASYA</h1>
+                   
+                
+            </div>
+        </div>    
+        <nav>
+            <a href="fotoGaleri.html">Foto Galeri</a>
+            <a href="anasayfa.html" >Anasayfa</a>
+            <a href="turistikYerler.html">Turistik Mekanlar</a>
+           
+           
+        </nav>
+    </header>
+    <section class="main">
+        <div class="card" style=" height: 515px;">
+            <h2>Bu Şehirde Her Bir Kapı Farklı Bir Tarihe Taşır Sizi
+            </h2>
+            <h5>June7,2020</h5>
+                <div class="img">
+                <img src="images/amasya2.jpg" style="width: 700px; height: 300px;">
+                </div>
+            
+            <p style="font-size: 19px;">Bu şehirde her bir kapı farklı bir diyara taşır sizi. Kimi bir padişaha; Sultan Bayezid'e, kimi tarihteki ilk coğrafyacıya; Strabon'a, kimi de efsane kral 6. Mitridat'a... Ama her kapı elbet geri Amasya'ya çıkar.</p>
+
+        </div>
+    </section>
+    
+
+    <section class="yan">
+        <div class="card" style="border:3px teal ridge ">
+            <h2>Genel Bilgiler</h2>
+            <div class="img">
+            <img src="images/amasya1.jpg" alt="Amasya" height="166px" width="230px">
+            </div>
+            <pre>Ülke                             Türkiye</pre>
+            <pre>İl                                   Amasya</pre>
+            <pre>Bölge                          Karadeniz</pre>
+            <p>_____________________________</p>
+            <pre>Yüzölçümü                 1.729 km²</pre>
+            <pre>Rakım                          411m</pre>
+            <pre>Nüfus(2018)                149.358 </pre>
+            <p>______________________________</p>
+            <pre>Posta Kodu                 05100</pre>
+            <pre>Telefon Kodu              358</pre>
+            <pre>İl Plaka Kodu              05 </pre>
+            <p>_____________________________</p>
+            <p style="text-align: center;">Harita</p>
+            <img src="images/harita2.png" alt="Amasya" height="px" width="230px">
+            <pre style="text-align: center;">Resmi Site</pre>
+            <pre>       <button><a href="http://www.amasya.gov.tr" style="text-align: center; text-decoration: none; color: ivory; font-size: 21px;">amasya.gov.tr </a></button></pre>
+       </div>
+    </section>   
+    
+    <section class="main">
+        <div class="card" style=" height: 900px;">
+            <h2>Amasya'nın Tarihi Tanıtımı
+            </h2>
+            <h5>June7,2020</h5>
+                <div class="img" >
+                <img src="images/sultan.jpg" style="width: 700px; height: 380px;">
+                </div>
+            
+            <p style="font-size: 19px;">330 bin civarında olan Amasya Nüfusu ile Orta Karadeniz bölgesinde bulunan; doğal güzellikleri ve tarihi yapılarıyla inci gibi parlayan güzide bir kenttir. Samsun, Çorum ve Tokat'a komşu olan Amasya, kartpostal görünümü oluşturan muhteşem ahşap evleri, dünyanın en lezzetli elmaları, cezbedici doğal yapısıyla ziyaretçilerini büyülemektedir.Amasya Tarihi; 7.500 yıllık geçmişe sahip olup; Hitit, Frig, Kimmer, Lidya, Pers, Roma, Bizans, Danişmend, Selçuklu, İlhanlı medeniyetlerinin yurt edindiği ve bu medeniyetlerce oldukça değer gören bir bölge olmuştur. Osmanlı İmparatorluğu döneminde asırlarca tarihin en önemli Sultanlarını da yetiştirmiş olan Amasya, Osmanlılar döneminde Manisa gibi şehzadeler şehri olarak ön plandaydı. Amasya, içinde barındırdığı kültürel ögeler kadar, doğal güzellikleriyle de ön plana çıkmaktadır. Amasya ilimizde Trabzon, Artvin, Rize gibi enfes doğası ve yeşil alanlarıyla tertemiz oksijene sahip bir kenttir. Son yıllarda  turizm kapasitesinide bir hayli artmış olan kent,ayrıca Amasya halkının hoşgörülü ve misafirperver yapısı da, bölgeye giden turistlere memnuniyet kazandırmıştır. Yeşilırmak'ın bütün cömertliğini sergilemiş olan Amasya'nın mutlaka görülmesi gereken yerlerini turistik yerler başlığı altında sizler için derledik</p>
+                
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="card" style=" height: 980px;">
+            <h2>Amasya İsminin Kökeni
+            </h2>
+            <h5>June7,2020</h5>
+                <div class="img" >
+                <img src="images/amasyayazi.jpg" style="width: 700px; height: 380px;">
+                </div>
+            
+            <p style="font-size: 19px;">Eskiçağda bir çok Anadolu şehrinin kurucu (ktistes) tanrısı veya kahramanının olduğu bilinmektedir. Bu mitolojik kuruluş Amasya için de geçerlidir.
+                Roma İmparatoru Septimius Severus (M.S. 193-211) dönemine ait bir Amasya sikkesi üzerinde yer alan ERMHC  KTICAC  THN  POLIN yazıtından hareketle Hermes’in Amasya kentinin kurucu tanrısı olduğu kabul edilmektedir.
+                Bu kısa açıklamadan sonra Amasya adının tarihçesine gelecek olursak;
+                Hitit belgelerine göre Amasya’nın bilinen ilk adının Hakmiş [Khakm(p)is] olduğu sanılmaktadır. Bu isimin Perslerin Amasya’yı fethine kadar devam ettiği değerlendirilmektedir.
+                Amasya’nın Mitridates Krallığı Dönemi'ndeki adı “Amasseia” dır. 
+                Roma döneminde Amaseia adı fazla bir değişikliğe uğramadan AMACIAC (Amasia) olarak kullanılmıştır. Örneğin, İmparator Septımıus Severus, Caracalla ve Severus Alexander döneminde darp edilmiş Amasya şehir sikkelerinde AMACIAC adını görmekteyiz.
+                Bizans Devri'nde de Amasia adının değişmeden devam ettiği bilinmektedir.
+                Amasya’nın adı Danişmendliler zamanında ise bazen Amasiyye, bazen de Şehr-i Haraşna olarak anılmıştır.
+                Selçuklu, İlhanlı, Beylikler ve Osmanlı İmparatorluğu döneminde de Amasya adı herhangi bir değişikliğe uğramadan günümüze kadar gelmiştir.</p>
+
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="card" style=" height: 700px;">
+            <h2>Coğrafya
+            </h2>
+            <h5>June7,2020</h5>
+                <div class="img" >
+                <img src="images/harita.svg" style="width: 700px; height: 380px;">
+                </div>
+            
+            <p style="font-size: 19px;">Amasya Karadeniz'in hemen gerisinde yer alır. Şehir vadi tabanı üzerine kurulmuştur. Anadolu’nun iç kesimlerini Samsun Limanı’na bağlayan yol üzerinde bulunan Amasya, 1930’da inşa edilen demiryolu ile Samsun’a bağlanmaktadır.</p>
+                
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="card" style=" height: 700px;">
+            <h2>İklim</h2>
+            
+            <h5>June7,2020</h5>
+                <div class="img" >
+                <img src="images/kar.jpg" style="width: 700px; height: 380px;">
+                </div>
+            
+            <p style="font-size: 19px;">İlde Karadeniz iklimi - kara iklimi arasında bir geçiş iklimi hüküm sürer. Yazları kara iklimi kadar kurak, Türkiye'de Karadeniz iklimi kadar yağışlı değildir. Kışları ise Karadeniz iklimi kadar ılıman, kara iklimi kadar sert değildir. Ayrıca Yeşilırmak ve vadinin verdiği yumuşatıcı etki de yadsınamaz boyuttadır. Kış mevsiminde vadinin verdiği özellikten dolayı yükseklerde kar olsa bile şehir merkezinde kar etkisizdir.</p>
+                
+        </div>
+    </section>
+
+
+    <footer>Copyrights © 2020 Creasoft All Right Reserved
+        <p style="text-align: center;">Şükrücan Cebeci 385221</p>
+    </footer>
+    
+</body>
+</html>
